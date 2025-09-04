@@ -1,0 +1,42 @@
+ Temas tratados
+1. Template Literals
+Permiten interpolar variables dentro de strings usando backticks ` y ${variable}.
+Más legibles que la concatenación con +.
+Útiles para saltos de línea y textos dinámicos.
+2. Scopes en JavaScript
+Var: Tiene scope de función. Permite redeclaración, lo que puede causar errores.
+Let: Tiene scope de bloque. No permite redeclaración en el mismo bloque.
+Const: Scope de bloque. No permite reasignación ni redeclaración.
+3. TypeScript
+Superset de JavaScript creado por Microsoft.
+Permite tipado estático y mejora la calidad del código.
+Se compila a JavaScript usando:
+tsc archivo.ts
+4. Tipos de datos en TypeScript
+string, number, boolean, array, any, union types
+Tipado explícito vs. implícito
+Validación en tiempo de compilación
+5. Funciones tipadas
+Parámetros obligatorios y opcionales (?)
+Valores por defecto
+Tipado de retorno
+6. Enums
+Definen conjuntos de valores específicos (ej. Dispositivo.Web, Dispositivo.Mobile)
+Útiles para representar estados o categorías fijas
+7. Interfaces
+Describen la forma de un objeto
+Permiten reutilización y validación estructural
+Ejemplo:
+interface Gato {
+  nombre: string;
+  edad: number;
+  colores: string[];
+}
+📦 NPM y manejo de dependencias
+Inicialización de proyecto
+npm init → crea package.json
+Scripts personalizados con npm run nombre_script
+Instalación de dependencias
+npm install typescript → agrega a node_modules
+package-lock.json → registra dependencias exactas
+node_modules → carpeta que no se sube al repositorio
