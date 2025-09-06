@@ -1,6 +1,10 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import ExampleScrimba from './components/ExampleScrimba.vue'
+import FetchExample from './components/FetchExample.vue';
+ 
+
 </script>
 
 <template>
@@ -9,11 +13,14 @@ import TheWelcome from './components/TheWelcome.vue'
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
+      <p>{{ name }}</p>
     </div>
   </header>
 
   <main>
-    <TheWelcome />
+    <!-- <TheWelcome /> -->
+     <ExampleScrimba  learning-vue="learning Vue" />
+     <FetchExample></FetchExample>
   </main>
 </template>
 
@@ -45,3 +52,6 @@ header {
   }
 }
 </style>
+
+
+
